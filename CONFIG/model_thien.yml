@@ -1,0 +1,52 @@
+FOLDER_SUBMIT: ./submit/
+PATH_LOCATION_TEST_OUTPUT: ./CONFIG/location_test.csv
+PATH_LOCATION_TRAIN_AIR: ./train/air/location.csv
+PATH_LOCATION_TRAIN_METEO: ./train/meteo/location.csv
+PATH_SAVE_MODEL: ./save_model/
+PATH_TRAIN_AIR: ./train/air/
+PATH_TRAIN_METEO: ./train/meteo/
+PUBLIC_TEST_INPUT_PATH: ./data_test/input/
+dict_location_input_train:
+  S0000136-Linh Dam: 0.0056179775280898875
+  S0000143-Thu vien - DHQG Ha Noi: 0.0028089887640449437
+  S0000144-Pham Tuan Tai: 0.0028089887640449437
+  S0000146-Thuong Mo: 0.011235955056179775
+  S0000157-Truong Mam non GCA Ecolife Capitol: 0.0028089887640449437
+  S0000158-TT: 0.060393258426966294
+  S0000169-Ngoc Thuy: 0.0014044943820224719
+  S0000192-Gia Thuong: 0.004213483146067416
+  S0000210-Truong THCS Yen So: 0.04353932584269663
+  S0000238-He thong lien cap Lomonoxop - Mam non: 0.10674157303370786
+  S0000304-Cum chung cu Van phong Quoc hoi: 0.03089887640449438
+  S0000319-Bat Trang: 0.04353932584269663
+  S0000328-Luong The Vinh: 0.004213483146067416
+  S0000331-Truong THCS Le Quy Don: 0.004213483146067416
+  S0000334-Truong mam non GCA Ecohome 1: 0.046348314606741575
+  S0000343-Vinh Hung: 0.011235955056179775
+  S0000346-Dinh Cong: 0.0056179775280898875
+  'S0000347- Gamuda Gardens ': 0.008426966292134831
+  S0000348- Cau Dien: 0.02949438202247191
+  S0000349-Ecohome Phuc Loi: 0.10252808988764045
+  S0000352-Dai hoc Mo Dia Chat: 0.02949438202247191
+  S0000367-To Hieu: 0.06320224719101124
+  S0000403-Truong THCS PASCAL: 0.03651685393258427
+  S0000431-Times City 2: 0.0014044943820224719
+  S0000503-Times City: 0.0028089887640449437
+  S0000504-Le Trong Tan: 0.09269662921348315
+  S0000508-He thong lien cap Lomonoxop - Tieu hoc: 0.0014044943820224719
+  S0000509-Van Phu: 0.06179775280898876
+  S0000538-Le Quang Dao: 0.05758426966292135
+  S0000585-He thong lien cap Lomonoxop- TH, THCS: 0.06179775280898876
+  S0000621-Truong Pho Thong Lien Cap Sinh Thai EraSchool: 0.032303370786516857
+  "S0000632-Dai hoc Tai nguyen v\xE0 Moi truong Ha Noi": 0.03089887640449438
+list_meteo:
+- ws_station_86
+- direction_station_86
+- total_precipitation_station_86
+- surface_pressure_station_86
+- evaporation_station_86
+- ws_station_87
+- direction_station_87
+- total_precipitation_station_87
+- surface_pressure_station_87
+- evaporation_station_87

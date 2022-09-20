@@ -1,0 +1,18 @@
+1. Build docker
+docker build -t thienchan .
+2. Run image
+docker run -it thienchan /bin/bash
+3. Train: 
+python train.py --conf_data=./CONFIG/model_thien.yml --name_model=thien1892/
+4. Submit: 
+python submit.py --path_save_submit=./submit/ --path_data_test=./data-test/input/ --conf_model=./save_model/thien1892/model_save.yml
+5. Submit_my_model_best_model ~ 52.xx: 
+python submit.py --conf_model=./save_model/model_6/model_save.yml
+6. Submit_my_model_best_score ~ 50.xx (combine 2 model): 
+python submit_combine2_model.py
+7. Copy file to host
+Quit and:
+docker ps --> check id
+docker cp [CONTAINER ID]:/bkav_aivn2022/submitcombine2model.zip .
+docker cp [CONTAINER ID]:/bkav_aivn2022/submitmodel_6.zip .
+docker cp [CONTAINER ID]:/bkav_aivn2022/submitthien1892.zip .

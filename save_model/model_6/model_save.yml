@@ -1,0 +1,269 @@
+Args:
+  batch_size: 256
+  drop_out: 0.15
+  epochs: 80
+  future: 24
+  learning_rate: 0.0007
+  monitor: val_loss
+  n_Dense: 64
+  n_LSTM: 64
+  n_nearest_label: 1
+  n_times_choice_data: 19
+  past: 168
+  sequence_stride: 4
+  sequence_stride_val: 4
+  split_fraction: 0.9
+  step: 1
+  stop_early: 80
+PATH_LOCATION_TEST_OUTPUT: ./CONFIG/location_test.csv
+X_max:
+  PM2.5_S0000136-Linh Dam: 497.56
+  PM2.5_S0000143-Thu vien - DHQG Ha Noi: 490.81
+  PM2.5_S0000144-Pham Tuan Tai: 490.81
+  PM2.5_S0000146-Thuong Mo: 474.5
+  PM2.5_S0000157-Truong Mam non GCA Ecolife Capitol: 490.43
+  PM2.5_S0000158-TT: 480.21
+  PM2.5_S0000169-Ngoc Thuy: 429.71
+  PM2.5_S0000192-Gia Thuong: 484.04
+  PM2.5_S0000210-Truong THCS Yen So: 487.69
+  PM2.5_S0000238-He thong lien cap Lomonoxop - Mam non: 357.29
+  PM2.5_S0000304-Cum chung cu Van phong Quoc hoi: 495.31
+  PM2.5_S0000319-Bat Trang: 338.05
+  PM2.5_S0000328-Luong The Vinh: 487.09
+  PM2.5_S0000331-Truong THCS Le Quy Don: 482.93
+  PM2.5_S0000334-Truong mam non GCA Ecohome 1: 390.24
+  PM2.5_S0000343-Vinh Hung: 396.3
+  PM2.5_S0000346-Dinh Cong: 487.64
+  'PM2.5_S0000347- Gamuda Gardens ': 334.88
+  PM2.5_S0000348- Cau Dien: 282.68
+  PM2.5_S0000349-Ecohome Phuc Loi: 498.49
+  PM2.5_S0000352-Dai hoc Mo Dia Chat: 476.98
+  PM2.5_S0000367-To Hieu: 438.03
+  PM2.5_S0000403-Truong THCS PASCAL: 492.27
+  PM2.5_S0000431-Times City 2: 474.24
+  PM2.5_S0000503-Times City: 474.24
+  PM2.5_S0000504-Le Trong Tan: 490.81
+  PM2.5_S0000508-He thong lien cap Lomonoxop - Tieu hoc: 499.48
+  PM2.5_S0000509-Van Phu: 438.03
+  PM2.5_S0000538-Le Quang Dao: 464.06
+  PM2.5_S0000585-He thong lien cap Lomonoxop- TH, THCS: 488.98
+  PM2.5_S0000621-Truong Pho Thong Lien Cap Sinh Thai EraSchool: 192.64
+  "PM2.5_S0000632-Dai hoc Tai nguyen v\xE0 Moi truong Ha Noi": 250.29
+  direction_station_86: 3.140719337133101
+  direction_station_87: 3.1360728038205306
+  evaporation_station_86: 1.1726050000000001e-05
+  evaporation_station_87: 1.43714715e-05
+  humidity_S0000136-Linh Dam: 100.0
+  humidity_S0000143-Thu vien - DHQG Ha Noi: 100.0
+  humidity_S0000144-Pham Tuan Tai: 100.0
+  humidity_S0000146-Thuong Mo: 94.4
+  humidity_S0000157-Truong Mam non GCA Ecolife Capitol: 100.0
+  humidity_S0000158-TT: 95.5
+  humidity_S0000169-Ngoc Thuy: 100.0
+  humidity_S0000192-Gia Thuong: 96.0
+  humidity_S0000210-Truong THCS Yen So: 100.0
+  humidity_S0000238-He thong lien cap Lomonoxop - Mam non: 100.0
+  humidity_S0000304-Cum chung cu Van phong Quoc hoi: 100.0
+  humidity_S0000319-Bat Trang: 91.6
+  humidity_S0000328-Luong The Vinh: 98.7
+  humidity_S0000331-Truong THCS Le Quy Don: 100.0
+  humidity_S0000334-Truong mam non GCA Ecohome 1: 100.0
+  humidity_S0000343-Vinh Hung: 100.0
+  humidity_S0000346-Dinh Cong: 100.0
+  'humidity_S0000347- Gamuda Gardens ': 97.4
+  humidity_S0000348- Cau Dien: 89.2
+  humidity_S0000349-Ecohome Phuc Loi: 99.4
+  humidity_S0000352-Dai hoc Mo Dia Chat: 100.0
+  humidity_S0000367-To Hieu: 97.7
+  humidity_S0000403-Truong THCS PASCAL: 100.0
+  humidity_S0000431-Times City 2: 100.0
+  humidity_S0000503-Times City: 100.0
+  humidity_S0000504-Le Trong Tan: 100.0
+  humidity_S0000508-He thong lien cap Lomonoxop - Tieu hoc: 95.7
+  humidity_S0000509-Van Phu: 97.7
+  humidity_S0000538-Le Quang Dao: 99.0
+  humidity_S0000585-He thong lien cap Lomonoxop- TH, THCS: 100.0
+  humidity_S0000621-Truong Pho Thong Lien Cap Sinh Thai EraSchool: 100.0
+  "humidity_S0000632-Dai hoc Tai nguyen v\xE0 Moi truong Ha Noi": 100.0
+  surface_pressure_station_86: 103067.19
+  surface_pressure_station_87: 103067.19
+  temperature_S0000136-Linh Dam: 38.9
+  temperature_S0000143-Thu vien - DHQG Ha Noi: 42.3
+  temperature_S0000144-Pham Tuan Tai: 42.3
+  temperature_S0000146-Thuong Mo: 36.3
+  temperature_S0000157-Truong Mam non GCA Ecolife Capitol: 41.7
+  temperature_S0000158-TT: 48.1
+  temperature_S0000169-Ngoc Thuy: 41.8
+  temperature_S0000192-Gia Thuong: 41.4
+  temperature_S0000210-Truong THCS Yen So: 42.6
+  temperature_S0000238-He thong lien cap Lomonoxop - Mam non: 44.5
+  temperature_S0000304-Cum chung cu Van phong Quoc hoi: 41.1
+  temperature_S0000319-Bat Trang: 41.5
+  temperature_S0000328-Luong The Vinh: 39.7
+  temperature_S0000331-Truong THCS Le Quy Don: 42.0
+  temperature_S0000334-Truong mam non GCA Ecohome 1: 44.5
+  temperature_S0000343-Vinh Hung: 42.1
+  temperature_S0000346-Dinh Cong: 43.9
+  'temperature_S0000347- Gamuda Gardens ': 39.2
+  temperature_S0000348- Cau Dien: 47.4
+  temperature_S0000349-Ecohome Phuc Loi: 41.4
+  temperature_S0000352-Dai hoc Mo Dia Chat: 40.7
+  temperature_S0000367-To Hieu: 42.4
+  temperature_S0000403-Truong THCS PASCAL: 39.6
+  temperature_S0000431-Times City 2: 40.9
+  temperature_S0000503-Times City: 40.9
+  temperature_S0000504-Le Trong Tan: 39.1
+  temperature_S0000508-He thong lien cap Lomonoxop - Tieu hoc: 60.0
+  temperature_S0000509-Van Phu: 42.4
+  temperature_S0000538-Le Quang Dao: 43.5
+  temperature_S0000585-He thong lien cap Lomonoxop- TH, THCS: 42.2
+  temperature_S0000621-Truong Pho Thong Lien Cap Sinh Thai EraSchool: 39.7
+  "temperature_S0000632-Dai hoc Tai nguyen v\xE0 Moi truong Ha Noi": 40.4
+  total_precipitation_station_86: 0.011425018
+  total_precipitation_station_87: 0.017652988
+  ws_station_86: 6.362231233874006
+  ws_station_87: 6.750863619801914
+X_min:
+  PM2.5_S0000136-Linh Dam: 1.0
+  PM2.5_S0000143-Thu vien - DHQG Ha Noi: 1.0
+  PM2.5_S0000144-Pham Tuan Tai: 1.0
+  PM2.5_S0000146-Thuong Mo: 1.0
+  PM2.5_S0000157-Truong Mam non GCA Ecolife Capitol: 1.0
+  PM2.5_S0000158-TT: 1.0
+  PM2.5_S0000169-Ngoc Thuy: 1.0
+  PM2.5_S0000192-Gia Thuong: 1.0
+  PM2.5_S0000210-Truong THCS Yen So: 1.0
+  PM2.5_S0000238-He thong lien cap Lomonoxop - Mam non: 1.0
+  PM2.5_S0000304-Cum chung cu Van phong Quoc hoi: 1.0
+  PM2.5_S0000319-Bat Trang: 1.0
+  PM2.5_S0000328-Luong The Vinh: 1.0
+  PM2.5_S0000331-Truong THCS Le Quy Don: 1.0
+  PM2.5_S0000334-Truong mam non GCA Ecohome 1: 1.0
+  PM2.5_S0000343-Vinh Hung: 1.0
+  PM2.5_S0000346-Dinh Cong: 1.0
+  'PM2.5_S0000347- Gamuda Gardens ': 1.0
+  PM2.5_S0000348- Cau Dien: 1.0
+  PM2.5_S0000349-Ecohome Phuc Loi: 1.0
+  PM2.5_S0000352-Dai hoc Mo Dia Chat: 1.0
+  PM2.5_S0000367-To Hieu: 1.0
+  PM2.5_S0000403-Truong THCS PASCAL: 1.0
+  PM2.5_S0000431-Times City 2: 1.1
+  PM2.5_S0000503-Times City: 1.1
+  PM2.5_S0000504-Le Trong Tan: 1.0
+  PM2.5_S0000508-He thong lien cap Lomonoxop - Tieu hoc: 1.0
+  PM2.5_S0000509-Van Phu: 1.0
+  PM2.5_S0000538-Le Quang Dao: 1.0
+  PM2.5_S0000585-He thong lien cap Lomonoxop- TH, THCS: 1.1
+  PM2.5_S0000621-Truong Pho Thong Lien Cap Sinh Thai EraSchool: 1.0
+  "PM2.5_S0000632-Dai hoc Tai nguyen v\xE0 Moi truong Ha Noi": 1.0
+  direction_station_86: -3.1346037592048193
+  direction_station_87: -3.1415142693529083
+  evaporation_station_86: -0.00086376024
+  evaporation_station_87: -0.0008597667300000001
+  humidity_S0000136-Linh Dam: 24.9
+  humidity_S0000143-Thu vien - DHQG Ha Noi: 39.9
+  humidity_S0000144-Pham Tuan Tai: 39.9
+  humidity_S0000146-Thuong Mo: 46.6
+  humidity_S0000157-Truong Mam non GCA Ecolife Capitol: 18.7
+  humidity_S0000158-TT: 24.9
+  humidity_S0000169-Ngoc Thuy: 10.1
+  humidity_S0000192-Gia Thuong: 27.1
+  humidity_S0000210-Truong THCS Yen So: 28.5
+  humidity_S0000238-He thong lien cap Lomonoxop - Mam non: 24.4
+  humidity_S0000304-Cum chung cu Van phong Quoc hoi: 42.2
+  humidity_S0000319-Bat Trang: 26.1
+  humidity_S0000328-Luong The Vinh: 25.7
+  humidity_S0000331-Truong THCS Le Quy Don: 28.1
+  humidity_S0000334-Truong mam non GCA Ecohome 1: 26.2
+  humidity_S0000343-Vinh Hung: 24.8
+  humidity_S0000346-Dinh Cong: 26.0
+  'humidity_S0000347- Gamuda Gardens ': 22.2
+  humidity_S0000348- Cau Dien: 24.6
+  humidity_S0000349-Ecohome Phuc Loi: 22.1
+  humidity_S0000352-Dai hoc Mo Dia Chat: 25.6
+  humidity_S0000367-To Hieu: 23.9
+  humidity_S0000403-Truong THCS PASCAL: 26.0
+  humidity_S0000431-Times City 2: 24.6
+  humidity_S0000503-Times City: 24.6
+  humidity_S0000504-Le Trong Tan: 26.6
+  humidity_S0000508-He thong lien cap Lomonoxop - Tieu hoc: 30.6
+  humidity_S0000509-Van Phu: 23.9
+  humidity_S0000538-Le Quang Dao: 16.1
+  humidity_S0000585-He thong lien cap Lomonoxop- TH, THCS: 16.6
+  humidity_S0000621-Truong Pho Thong Lien Cap Sinh Thai EraSchool: 52.5
+  "humidity_S0000632-Dai hoc Tai nguyen v\xE0 Moi truong Ha Noi": 49.0
+  surface_pressure_station_86: 99308.56
+  surface_pressure_station_87: 99340.56
+  temperature_S0000136-Linh Dam: 10.0
+  temperature_S0000143-Thu vien - DHQG Ha Noi: 12.2
+  temperature_S0000144-Pham Tuan Tai: 12.2
+  temperature_S0000146-Thuong Mo: 18.9
+  temperature_S0000157-Truong Mam non GCA Ecolife Capitol: 10.1
+  temperature_S0000158-TT: 11.1
+  temperature_S0000169-Ngoc Thuy: 10.0
+  temperature_S0000192-Gia Thuong: 10.0
+  temperature_S0000210-Truong THCS Yen So: 10.0
+  temperature_S0000238-He thong lien cap Lomonoxop - Mam non: 10.0
+  temperature_S0000304-Cum chung cu Van phong Quoc hoi: 11.2
+  temperature_S0000319-Bat Trang: 10.7
+  temperature_S0000328-Luong The Vinh: 10.0
+  temperature_S0000331-Truong THCS Le Quy Don: 10.9
+  temperature_S0000334-Truong mam non GCA Ecohome 1: 10.3
+  temperature_S0000343-Vinh Hung: 10.9
+  temperature_S0000346-Dinh Cong: 10.1
+  'temperature_S0000347- Gamuda Gardens ': 12.1
+  temperature_S0000348- Cau Dien: 14.2
+  temperature_S0000349-Ecohome Phuc Loi: 10.0
+  temperature_S0000352-Dai hoc Mo Dia Chat: 10.0
+  temperature_S0000367-To Hieu: 10.9
+  temperature_S0000403-Truong THCS PASCAL: 10.0
+  temperature_S0000431-Times City 2: 10.2
+  temperature_S0000503-Times City: 10.2
+  temperature_S0000504-Le Trong Tan: 10.4
+  temperature_S0000508-He thong lien cap Lomonoxop - Tieu hoc: 14.0
+  temperature_S0000509-Van Phu: 10.9
+  temperature_S0000538-Le Quang Dao: 10.0
+  temperature_S0000585-He thong lien cap Lomonoxop- TH, THCS: 10.0
+  temperature_S0000621-Truong Pho Thong Lien Cap Sinh Thai EraSchool: 24.5
+  "temperature_S0000632-Dai hoc Tai nguyen v\xE0 Moi truong Ha Noi": 24.9
+  total_precipitation_station_86: 0.0
+  total_precipitation_station_87: 0.0
+  ws_station_86: 0.036376198133570146
+  ws_station_87: 0.043151091710586245
+Y_max:
+  location_test_0: 490.81
+  location_test_1: 499.06
+  location_test_2: 423.28
+  location_test_3: 466.15
+  location_test_4: 498.31
+  location_test_5: 496.02
+  location_test_6: 494.98
+  location_test_7: 474.24
+  location_test_8: 438.03
+  location_test_9: 260.13
+Y_min:
+  location_test_0: 1.0
+  location_test_1: 1.0
+  location_test_2: 1.0
+  location_test_3: 1.0
+  location_test_4: 1.0
+  location_test_5: 1.0
+  location_test_6: 1.0
+  location_test_7: 1.1
+  location_test_8: 1.0
+  location_test_9: 1.1
+base_model: model_2
+list_meteo:
+- ws_station_86
+- direction_station_86
+- total_precipitation_station_86
+- surface_pressure_station_86
+- evaporation_station_86
+- ws_station_87
+- direction_station_87
+- total_precipitation_station_87
+- surface_pressure_station_87
+- evaporation_station_87
+name: model_6/
+path_model: ./save_model/model_6/my_checkpoint.h5
+path_save_model_yaml: ./save_model/model_6/model_save.yml

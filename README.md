@@ -20,5 +20,5 @@
     ```
 - Submit file **'./submitthien1892.zip'**, **'submitcombine2model.zip'**
 
-**Reference:**
-https://towardsdatascience.com/step-by-step-understanding-lstm-autoencoder-layers-ffab055b6352
+**Reference understanding LSTM autoencoder:**
+- https://towardsdatascience.com/step-by-step-understanding-lstm-autoencoder-layers-ffab055b6352
